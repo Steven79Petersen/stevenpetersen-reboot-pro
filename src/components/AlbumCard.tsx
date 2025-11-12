@@ -1,6 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { ExternalLink } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 
 interface StreamingLinks {
   spotify?: string;
@@ -14,11 +13,23 @@ interface AlbumCardProps {
   year?: string;
   info?: string;
   streamingLinks?: StreamingLinks;
+  detailPath?: string;
 }
 
-export const AlbumCard = ({ title, coverUrl, year, info, streamingLinks }: AlbumCardProps) => {
+export const AlbumCard = ({ title, coverUrl, year, info, streamingLinks, detailPath }: AlbumCardProps) => {
+  const navigate = useNavigate();
+
+  const handleCardClick = () => {
+    if (detailPath) {
+      navigate(detailPath);
+    }
+  };
+
   return (
-    <Card className="group overflow-hidden glass-card hover:border-primary/50 transition-all duration-500 hover:shadow-glow">
+    <Card 
+      className="group overflow-hidden glass-card hover:border-primary/50 transition-all duration-500 hover:shadow-glow cursor-pointer"
+      onClick={handleCardClick}
+    >
       <CardContent className="p-0">
         {/* Album Cover */}
         <div className="relative aspect-square overflow-hidden">

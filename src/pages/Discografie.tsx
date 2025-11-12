@@ -53,55 +53,55 @@ const Discografie = () => {
       title: "Happy Birthday",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2024-11/birthday.jpg?itok=v3jSeSdw",
       year: "2024",
+      detailPath: "/album/happy-birthday",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/84"
+        spotify: "https://open.spotify.com/intl-de/track/7rl3DKVmJdCzYYxaBG4dIl",
+        apple: "https://music.apple.com/de/album/happy-birthday-single/1772368788",
+        amazon: "https://music.amazon.de/albums/B0DN8WBVK1"
       }
     },
     {
       title: "Fastfood",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2024-11/fastfood%20%281%29.jpg?itok=xeXlNebh",
       year: "2024",
+      detailPath: "/album/fastfood",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/86"
+        spotify: "https://open.spotify.com/intl-de/track/3TJYCEhgvZm1l1L0c0zGEG",
+        apple: "https://music.apple.com/de/album/fastfood-single/1773843726",
+        amazon: "https://music.amazon.de/albums/B0DPFT82H9"
       }
     },
     {
       title: "What's up",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2024-11/whatsup-web.jpg?itok=KAVd6eL2",
       year: "2024",
+      detailPath: "/album/whats-up",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/85"
+        spotify: "https://open.spotify.com/intl-de/track/21N6AYXqLFfaUyWqyigqr0",
+        apple: "https://music.apple.com/de/album/whats-up-single/1772961113",
+        amazon: "https://music.amazon.de/albums/B0DNYBVD7L"
       }
     },
     {
       title: "Ohne Dich",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2024-09/OhneDich.jpg?itok=-e4blNmy",
       year: "2024",
+      detailPath: "/album/ohne-dich",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/82"
+        spotify: "https://open.spotify.com/intl-de/track/0rDQW01wXfQSrjZ6IgjUFv",
+        apple: "https://music.apple.com/de/album/ohne-dich-single/1767110558",
+        amazon: "https://music.amazon.de/albums/B0DHSXKRJC"
       }
     },
     {
       title: "Geburtstag",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2024-08/Steven-Geburtstag.jpg?itok=o0e9Hvhv",
       year: "2024",
+      detailPath: "/album/geburtstag",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/78"
+        spotify: "https://open.spotify.com/intl-de/track/1Xs8pfdnI4ht68bSpfTHDh",
+        apple: "https://music.apple.com/de/album/geburtstag-single/1759877690",
+        amazon: "https://music.amazon.de/albums/B0DBRMS7MS"
       }
     },
     {
@@ -119,11 +119,11 @@ const Discografie = () => {
       title: "noDay",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2024-08/Steven%20Petersen%20-%20noDay.jpg?itok=9UphsqcZ",
       year: "2024",
+      detailPath: "/album/noday",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/79"
+        spotify: "https://open.spotify.com/intl-de/track/5LLqSQ0v5LzRsmL7HRrQ3X",
+        apple: "https://music.apple.com/de/album/noday-single/1760681267",
+        amazon: "https://music.amazon.de/albums/B0DCCX7DG1"
       }
     },
     {
