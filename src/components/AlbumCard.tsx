@@ -43,15 +43,15 @@ export const AlbumCard = ({ title, coverUrl, year, info, streamingLinks }: Album
             )}
           </div>
           
-          {/* Streaming Links - Text only */}
+          {/* Streaming Links - Button Style */}
           {streamingLinks && (
-            <div className="flex flex-wrap gap-2 text-xs">
+            <div className="flex flex-wrap gap-1.5">
               {streamingLinks.spotify && (
                 <a
                   href={streamingLinks.spotify}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-spotify hover:underline font-medium"
+                  className="flex-1 min-w-0 h-8 px-3 text-xs font-medium rounded-md border transition-colors flex items-center justify-center bg-spotify/10 hover:bg-spotify/20 border-spotify/30 text-spotify"
                   onClick={(e) => e.stopPropagation()}
                 >
                   Spotify
@@ -63,7 +63,7 @@ export const AlbumCard = ({ title, coverUrl, year, info, streamingLinks }: Album
                   href={streamingLinks.apple}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-foreground hover:underline font-medium"
+                  className="flex-1 min-w-0 h-8 px-3 text-xs font-medium rounded-md border transition-colors flex items-center justify-center bg-foreground/5 hover:bg-foreground/10 border-foreground/20"
                   onClick={(e) => e.stopPropagation()}
                 >
                   Apple Music
@@ -75,7 +75,7 @@ export const AlbumCard = ({ title, coverUrl, year, info, streamingLinks }: Album
                   href={streamingLinks.amazon}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-amazon hover:underline font-medium"
+                  className="flex-1 min-w-0 h-8 px-3 text-xs font-medium rounded-md border transition-colors flex items-center justify-center bg-amazon/10 hover:bg-amazon/20 border-amazon/30 text-amazon"
                   onClick={(e) => e.stopPropagation()}
                 >
                   Amazon Music
