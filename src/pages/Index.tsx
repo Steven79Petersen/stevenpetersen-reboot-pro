@@ -14,7 +14,8 @@ const Index = () => {
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
+        preview: "https://www.stevenpetersen.de/index.php/node/87"
       }
     },
     {
@@ -25,7 +26,8 @@ const Index = () => {
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
+        preview: "https://www.stevenpetersen.de/index.php/node/88"
       }
     },
     {
@@ -36,7 +38,8 @@ const Index = () => {
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
+        preview: "https://www.stevenpetersen.de/index.php/node/89"
       }
     },
     {
@@ -47,7 +50,8 @@ const Index = () => {
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
+        preview: "https://www.stevenpetersen.de/index.php/node/90"
       }
     },
   ];
