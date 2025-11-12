@@ -1,15 +1,17 @@
-import heroBackground from "@/assets/hero-background.jpg";
+import stevenPortrait from "@/assets/steven-portrait.jpg";
 import { Button } from "@/components/ui/button";
 import { Music, Mic, Radio } from "lucide-react";
 
 export const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBackground})` }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/70 to-background"></div>
+      {/* Background Portrait */}
+      <div className="absolute inset-0">
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
+          style={{ backgroundImage: `url(${stevenPortrait})` }}
+        ></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/80 to-background"></div>
       </div>
       
       {/* Floating Elements */}
