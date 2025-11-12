@@ -130,11 +130,11 @@ const Discografie = () => {
       title: "I wish you this day",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2024-08/Steven-Tag.jpg?itok=ogl2n4MV",
       year: "2024",
+      detailPath: "/album/i-wish-you-this-day",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/80"
+        spotify: "https://open.spotify.com/intl-de/track/4fMHIEbSUl4LYdHcj3z2jE",
+        apple: "https://music.apple.com/de/album/i-wish-you-this-day-single/1760966813",
+        amazon: "https://music.amazon.de/albums/B0DD1K8B6N"
       }
     },
     {
@@ -152,22 +152,22 @@ const Discografie = () => {
       title: "The future is now",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2024-07/Jumping2.jpg?itok=t5G-dvVE",
       year: "2024",
+      detailPath: "/album/the-future-is-now",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/73"
+        spotify: "https://open.spotify.com/intl-de/track/7fIw9nYrn34GgqPnlL1aUC",
+        apple: "https://music.apple.com/de/album/the-future-is-now-single/1754236879",
+        amazon: "https://music.amazon.de/albums/B0D88X56ZB"
       }
     },
     {
       title: "Fußballfieber",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2024-03/CoverSVF-FF.jpg?itok=nMEjKGtm",
       year: "2024",
+      detailPath: "/album/fussballfieber",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/69"
+        spotify: "https://open.spotify.com/intl-de/track/4Zh23XiXAz9JiATXhAl1qg",
+        apple: "https://music.apple.com/de/album/fu%C3%9Fballfieber-fu%C3%9Fball-jugend-hymne-single/1736085395",
+        amazon: "https://music.amazon.de/albums/B0CXLWZJ4H"
       }
     },
     {
@@ -196,11 +196,11 @@ const Discografie = () => {
       title: "Straße der zerbrochenen Träume",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2023-02/zerbrochenen_0.jpg?itok=JqWNCeD3",
       year: "2023",
+      detailPath: "/album/strasse-der-zerbrochenen-traeume",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/50"
+        spotify: "https://open.spotify.com/intl-de/track/5vB5Ng8tWbW7Pjr7OVkrMl",
+        apple: "https://music.apple.com/de/album/stra%C3%9Fe-der-zerbrochenen-tr%C3%A4ume-single/1670911881",
+        amazon: "https://music.amazon.de/albums/B0BYM4TNNZ"
       }
     },
     {
@@ -229,22 +229,22 @@ const Discografie = () => {
       title: "Ein fast perfektes Jahr",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2023-02/fastperfekt.jpg?itok=L9QapJja",
       year: "2023",
+      detailPath: "/album/ein-fast-perfektes-jahr",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/51"
+        spotify: "https://open.spotify.com/intl-de/track/2OG6J18wl5v8rL6QPZkW5S",
+        apple: "https://music.apple.com/de/album/ein-fast-perfektes-jahr-single/1671026898",
+        amazon: "https://music.amazon.de/albums/B0BYP3D5YX"
       }
     },
     {
       title: "Geh mir nicht durchs Haar",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2023-02/steven-GehMirNichtDurchsHaar.jpg?itok=x84fR8TC",
       year: "2023",
+      detailPath: "/album/geh-mir-nicht-durchs-haar",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/45"
+        spotify: "https://open.spotify.com/intl-de/track/6hvemLG5AzY5xgN0Y2NLHZ",
+        apple: "https://music.apple.com/de/album/geh-mir-nicht-durchs-haar-single/1668913195",
+        amazon: "https://music.amazon.de/albums/B0BWZZ7Q9X"
       }
     },
     {
@@ -273,22 +273,22 @@ const Discografie = () => {
       title: "Manchmal ist das Leben...",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2023-01/98F802A2-C83D-4C7F-B172-B80FB1F222ED.jpeg?itok=2-TIjUQI",
       year: "2023",
+      detailPath: "/album/manchmal-ist-das-leben",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/38"
+        spotify: "https://open.spotify.com/intl-de/track/0qzPIJIxoUbwxHJAo7y8Wg",
+        apple: "https://music.apple.com/de/album/manchmal-ist-das-leben-single/1662903699",
+        amazon: "https://music.amazon.de/albums/B0BS2VD9YR"
       }
     },
     {
       title: "Eine Nacht...",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2023-01/einenachtjg.jpg?itok=Y9aXiXFv",
       year: "2023",
+      detailPath: "/album/eine-nacht",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/43"
+        spotify: "https://open.spotify.com/intl-de/track/3q3bG1m4jYZEQlCHgmJVfr",
+        apple: "https://music.apple.com/de/album/ich-hab-nur-eine-nacht-nicht-nachgedacht-single/1667372341",
+        amazon: "https://music.amazon.de/albums/B0BTXW6Q5V"
       }
     },
     {
@@ -328,22 +328,22 @@ const Discografie = () => {
       title: "Glücksgefühl",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2022-08/Cover_Gl%C3%BCcksgef%C3%BChl-300x300.jpg?itok=W3kjC0st",
       year: "2022",
+      detailPath: "/album/gluecksgefuehl",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/23"
+        spotify: "https://open.spotify.com/intl-de/track/0axxPjmyy17dNuKPJUHKNc",
+        apple: "https://music.apple.com/de/album/gl%C3%BCcksgef%C3%BChl-single/1639091652",
+        amazon: "https://music.amazon.de/albums/B0B8N3LPVZ"
       }
     },
     {
       title: "Lebenskraft",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2022-08/Kraft.jpg?itok=2j-u1dy7",
       year: "2022",
+      detailPath: "/album/lebenskraft",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/27"
+        spotify: "https://open.spotify.com/intl-de/track/2Z9zqGVwWwBqAz3Wz6n0YL",
+        apple: "https://music.apple.com/de/album/lebenskraft-single/1642085542",
+        amazon: "https://music.amazon.de/albums/B0BCKVLQGJ"
       }
     },
     {
@@ -361,11 +361,11 @@ const Discografie = () => {
       title: "Discokönigin",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2022-08/disco.jpg?itok=l135oR1i",
       year: "2022",
+      detailPath: "/album/discokoenigin",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/36"
+        spotify: "https://open.spotify.com/intl-de/track/1F5t2tNhKqkn8GXkC8Tp5D",
+        apple: "https://music.apple.com/de/album/discok%C3%B6nigin-single/1641344896",
+        amazon: "https://music.amazon.de/albums/B0BBY8SN92"
       }
     },
     {
@@ -405,43 +405,44 @@ const Discografie = () => {
       title: "Der Goldfisch Oscar",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2021-08/C41FD5E9-4846-4C5E-93CC-1FB036CF724B.jpeg?itok=8d-AJM8u",
       year: "2021",
+      detailPath: "/album/der-goldfisch-oscar",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/10"
+        spotify: "https://open.spotify.com/intl-de/track/2kAa9YbTCdW2U90p6KjpkM",
+        apple: "https://music.apple.com/de/album/der-goldfisch-oscar-single/1580876966",
+        amazon: "https://music.amazon.de/albums/B09B3JQKZG"
       }
     },
     {
       title: "Die wilde Erna",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2021-08/AEE36F96-7FD1-43C1-9FF1-AE64C924EE56.jpeg?itok=w49_twNe",
       year: "2021",
+      detailPath: "/album/die-wilde-erna",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/7"
+        spotify: "https://open.spotify.com/intl-de/track/3bZf5PnzWRxLMz3cLdYNdZ",
+        apple: "https://music.apple.com/de/album/die-wilde-erna-single/1580861836",
+        amazon: "https://music.amazon.de/albums/B09B386KQQ"
       }
     },
     {
       title: "Tonight i'll be with you",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2021-08/98BD7ECC-FC1E-4C7B-A779-1C758CC3DCDF.jpeg?itok=9zuaPwjp",
       year: "2021",
+      detailPath: "/album/tonight-ill-be-with-you",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/4"
+        spotify: "https://open.spotify.com/intl-de/track/1t7WeLKIyhYGO3AjLXY5HL",
+        apple: "https://music.apple.com/de/album/tonight-ill-be-with-you-single/1580900677",
+        amazon: "https://music.amazon.de/albums/B09B4D6V7N"
       }
     },
     {
       title: "Herzen brennen",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2023-02/fhHerzen.jpg?itok=4bpzBS9O",
+      year: "2023",
+      detailPath: "/album/herzen-brennen",
       streamingLinks: {
-        spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
-        apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/3"
+        spotify: "https://open.spotify.com/intl-de/track/0vCVxqd8OT9Wj0FVbVOlQX",
+        apple: "https://music.apple.com/de/album/herzen-brennen-single/1671027068",
+        amazon: "https://music.amazon.de/albums/B0BYP3FHZG"
       }
     },
     {

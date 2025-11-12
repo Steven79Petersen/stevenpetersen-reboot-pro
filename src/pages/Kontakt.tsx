@@ -42,10 +42,10 @@ const Kontakt = () => {
                   Rufen Sie uns an
                 </p>
                 <a 
-                  href="tel:+49123456789" 
+                  href="tel:+49015223045595" 
                   className="text-primary hover:underline"
                 >
-                  +49 (0) 123 456 789
+                  +49 (0) 1522 3045595
                 </a>
               </CardContent>
             </Card>
