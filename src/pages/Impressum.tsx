@@ -1,9 +1,7 @@
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
-
 const Impressum = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <Navigation />
       
       <main className="pt-32 pb-20">
@@ -15,8 +13,7 @@ const Impressum = () => {
           <div className="bg-card border border-border rounded-lg p-8 md:p-12 space-y-8">
             <section>
               <h2 className="text-2xl font-bold mb-4 text-primary">Angaben gemäß § 5 TMG</h2>
-              <p className="text-foreground">
-                Steven Petersen<br />
+              <p className="text-foreground">Steven Petersen Otto-Meentz-Str. 48 26382 Wilhelmshaven Deutschland<br />
                 [Straße und Hausnummer]<br />
                 [PLZ und Ort]<br />
                 Deutschland
@@ -75,8 +72,6 @@ const Impressum = () => {
       </main>
 
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default Impressum;
