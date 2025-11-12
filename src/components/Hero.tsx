@@ -1,35 +1,95 @@
 import heroBackground from "@/assets/hero-background.jpg";
+import { Button } from "@/components/ui/button";
+import { Music, Mic, Radio } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroBackground})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/70 to-background"></div>
+      </div>
+      
+      {/* Floating Elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/20 rounded-full blur-3xl animate-float"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/20 rounded-full blur-3xl animate-float" style={{ animationDelay: "1s" }}></div>
       </div>
       
       <div className="relative z-10 container mx-auto px-4 text-center">
-        <h1 className="font-playfair text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-fade-in">
+        <div className="animate-fade-in">
+          <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 glass rounded-full">
+            <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+            <span className="text-sm text-muted-foreground">Verfügbar auf allen Plattformen</span>
+          </div>
+        </div>
+        
+        <h1 className="font-playfair text-6xl md:text-8xl lg:text-9xl font-bold mb-6 animate-scale-in bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
           Steven Petersen
         </h1>
-        <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-          Liedtexter · Moderator · Sänger
+        
+        <div className="flex items-center justify-center gap-4 mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
+          <div className="flex items-center gap-2 px-4 py-2 glass-card rounded-lg">
+            <Music className="h-5 w-5 text-primary" />
+            <span className="text-foreground font-semibold">Liedtexter</span>
+          </div>
+          <div className="flex items-center gap-2 px-4 py-2 glass-card rounded-lg">
+            <Radio className="h-5 w-5 text-secondary" />
+            <span className="text-foreground font-semibold">Moderator</span>
+          </div>
+          <div className="flex items-center gap-2 px-4 py-2 glass-card rounded-lg">
+            <Mic className="h-5 w-5 text-accent" />
+            <span className="text-foreground font-semibold">Sänger</span>
+          </div>
+        </div>
+        
+        <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "0.3s" }}>
+          Erleben Sie authentische deutsche Musik mit Herz und Leidenschaft
         </p>
-        <div className="flex flex-wrap justify-center gap-4 animate-fade-in" style={{ animationDelay: "0.4s" }}>
-          <a
-            href="#discografie"
-            className="px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-lg hover:shadow-glow transition-all duration-300"
+        
+        <div className="flex flex-wrap justify-center gap-4 animate-slide-up" style={{ animationDelay: "0.4s" }}>
+          <Button
+            size="lg"
+            className="bg-gradient-accent text-white font-semibold px-8 py-6 text-lg rounded-full hover:shadow-glow transition-all duration-300"
+            onClick={() => document.getElementById('discografie')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Musik entdecken
-          </a>
-          <a
-            href="/kontakt"
-            className="px-8 py-3 bg-secondary text-secondary-foreground font-semibold rounded-lg border border-border hover:border-primary transition-all duration-300"
+            Jetzt anhören
+          </Button>
+          <Button
+            size="lg"
+            variant="outline"
+            className="glass-card font-semibold px-8 py-6 text-lg rounded-full border-2 hover:border-primary transition-all duration-300"
+            onClick={() => window.location.href = '/kontakt'}
           >
-            Kontakt
-          </a>
+            Kontakt aufnehmen
+          </Button>
+        </div>
+        
+        {/* Social Proof */}
+        <div className="mt-16 flex items-center justify-center gap-8 animate-fade-in" style={{ animationDelay: "0.6s" }}>
+          <div className="text-center">
+            <div className="text-3xl font-bold text-primary">10+</div>
+            <div className="text-sm text-muted-foreground">Veröffentlichungen</div>
+          </div>
+          <div className="h-12 w-px bg-border"></div>
+          <div className="text-center">
+            <div className="text-3xl font-bold text-secondary">2025</div>
+            <div className="text-sm text-muted-foreground">Aktuelle Songs</div>
+          </div>
+          <div className="h-12 w-px bg-border"></div>
+          <div className="text-center">
+            <div className="text-3xl font-bold text-accent">GEMA</div>
+            <div className="text-sm text-muted-foreground">Mitglied 144 422</div>
+          </div>
+        </div>
+      </div>
+      
+      {/* Scroll Indicator */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+        <div className="w-6 h-10 border-2 border-primary/50 rounded-full flex items-start justify-center p-2">
+          <div className="w-1.5 h-2 bg-primary rounded-full"></div>
         </div>
       </div>
     </section>
