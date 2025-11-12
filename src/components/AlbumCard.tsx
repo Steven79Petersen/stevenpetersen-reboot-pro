@@ -6,7 +6,6 @@ interface StreamingLinks {
   spotify?: string;
   apple?: string;
   amazon?: string;
-  preview?: string;
 }
 
 interface AlbumCardProps {
@@ -100,21 +99,6 @@ export const AlbumCard = ({ title, coverUrl, year, info, streamingLinks }: Album
             </div>
           )}
           
-          {/* Preview Link wenn vorhanden */}
-          {streamingLinks?.preview && (
-            <Button
-              size="sm"
-              variant="ghost"
-              className="w-full h-8 text-xs text-muted-foreground hover:text-primary"
-              onClick={(e) => {
-                e.stopPropagation();
-                window.open(streamingLinks.preview, '_blank');
-              }}
-            >
-              <ExternalLink className="h-3 w-3 mr-1" />
-              Mehr Infos
-            </Button>
-          )}
         </div>
       </CardContent>
     </Card>
