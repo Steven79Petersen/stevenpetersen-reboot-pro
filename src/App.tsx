@@ -32,6 +32,18 @@ import EineNacht from "./pages/albums/EineNacht";
 import TheFutureIsNow from "./pages/albums/TheFutureIsNow";
 import Discokoenigin from "./pages/albums/Discokoenigin";
 import DieWildeErna from "./pages/albums/DieWildeErna";
+import WillkommenAufDerErde from "./pages/albums/WillkommenAufDerErde";
+import Wochenende from "./pages/albums/Wochenende";
+import MeineSonne from "./pages/albums/MeineSonne";
+import Digital from "./pages/albums/Digital";
+import BassThatQuakes from "./pages/albums/BassThatQuakes";
+import UrlaubZuHause from "./pages/albums/UrlaubZuHause";
+import LassMichDeinHeldSein from "./pages/albums/LassMichDeinHeldSein";
+import GlaubImmerAnDich from "./pages/albums/GlaubImmerAnDich";
+import FuerDich from "./pages/albums/FuerDich";
+import WiesoGeradeIch from "./pages/albums/WiesoGeradeIch";
+import DuMachstMirGaensehaut from "./pages/albums/DuMachstMirGaensehaut";
+import Hampelmann from "./pages/albums/Hampelmann";
 
 const queryClient = new QueryClient();
 
@@ -70,6 +82,18 @@ const App = () => (
           <Route path="/album/the-future-is-now" element={<TheFutureIsNow />} />
           <Route path="/album/discokoenigin" element={<Discokoenigin />} />
           <Route path="/album/die-wilde-erna" element={<DieWildeErna />} />
+          <Route path="/album/willkommen-auf-der-erde" element={<WillkommenAufDerErde />} />
+          <Route path="/album/wochenende" element={<Wochenende />} />
+          <Route path="/album/meine-sonne" element={<MeineSonne />} />
+          <Route path="/album/digital" element={<Digital />} />
+          <Route path="/album/bass-that-quakes" element={<BassThatQuakes />} />
+          <Route path="/album/urlaub-zu-hause" element={<UrlaubZuHause />} />
+          <Route path="/album/lass-mich-dein-held-sein" element={<LassMichDeinHeldSein />} />
+          <Route path="/album/glaub-immer-an-dich" element={<GlaubImmerAnDich />} />
+          <Route path="/album/fuer-dich" element={<FuerDich />} />
+          <Route path="/album/wieso-gerade-ich" element={<WiesoGeradeIch />} />
+          <Route path="/album/du-machst-mir-gaensehaut" element={<DuMachstMirGaensehaut />} />
+          <Route path="/album/hampelmann" element={<Hampelmann />} />
           
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

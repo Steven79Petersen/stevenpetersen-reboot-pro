@@ -11,11 +11,11 @@ const Index = () => {
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2025-02/willkommen.jpg?itok=S_xqusev",
       year: "2025",
       info: "Die neueste Single mit emotionaler Tiefe und authentischem Sound",
+      detailPath: "/album/willkommen-auf-der-erde",
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/87"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
       }
     },
     {
@@ -23,11 +23,11 @@ const Index = () => {
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2025-03/Steven%20Petersen%20-%20Wochenende.jpg?itok=WX69bIzD",
       year: "2025",
       info: "Der perfekte Song für entspannte Momente",
+      detailPath: "/album/wochenende",
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/88"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
       }
     },
     {
@@ -35,11 +35,11 @@ const Index = () => {
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2025-03/Sonne.jpg?itok=sUy3Njuk",
       year: "2025",
       info: "Eine Hymne an die Liebe und das Leben",
+      detailPath: "/album/meine-sonne",
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/89"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
       }
     },
     {
@@ -47,11 +47,11 @@ const Index = () => {
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2025-10/7d31cbd3-c4d2-4cf8-b2fe-779a10ad7eac.jpeg?itok=x2S1gdJF",
       year: "2025",
       info: "Moderne Klänge treffen auf authentische Texte",
+      detailPath: "/album/digital",
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/90"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
       }
     },
   ];

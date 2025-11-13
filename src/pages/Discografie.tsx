@@ -9,44 +9,44 @@ const Discografie = () => {
       title: "Willkommen auf der Erde",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2025-02/willkommen.jpg?itok=S_xqusev",
       year: "2025",
+      detailPath: "/album/willkommen-auf-der-erde",
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/87"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
       }
     },
     {
       title: "Wochenende",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2025-03/Steven%20Petersen%20-%20Wochenende.jpg?itok=WX69bIzD",
       year: "2025",
+      detailPath: "/album/wochenende",
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/88"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
       }
     },
     {
       title: "Meine Sonne",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2025-03/Sonne.jpg?itok=sUy3Njuk",
       year: "2025",
+      detailPath: "/album/meine-sonne",
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/89"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
       }
     },
     {
       title: "Digital",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2025-10/7d31cbd3-c4d2-4cf8-b2fe-779a10ad7eac.jpeg?itok=x2S1gdJF",
       year: "2025",
+      detailPath: "/album/digital",
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/90"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
       }
     },
     {
@@ -108,11 +108,11 @@ const Discografie = () => {
       title: "Bass that quakes",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2024-08/Steven%20-%20Bass.jpg?itok=NLW0IhWs",
       year: "2024",
+      detailPath: "/album/bass-that-quakes",
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/81"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
       }
     },
     {
@@ -141,11 +141,11 @@ const Discografie = () => {
       title: "Urlaub zu hause",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2024-07/FH-urlaubzuhause.jpg?itok=yuIQk8I0",
       year: "2024",
+      detailPath: "/album/urlaub-zu-hause",
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/74"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
       }
     },
     {
@@ -174,22 +174,22 @@ const Discografie = () => {
       title: "Lass mich dein Held sein",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2023-10/tksp-Held-Cover.jpeg?itok=pIMJtWNH",
       year: "2023",
+      detailPath: "/album/lass-mich-dein-held-sein",
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/68"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
       }
     },
     {
       title: "Glaub' immer an dich",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2023-05/344229468_568524555269160_8298523082615678619_n.jpg?itok=cZF1KGXa",
       year: "2023",
+      detailPath: "/album/glaub-immer-an-dich",
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/67"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
       }
     },
     {
@@ -207,22 +207,22 @@ const Discografie = () => {
       title: "Für Dich",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2023-02/fuerdich.jpg?itok=AukJYj86",
       year: "2023",
+      detailPath: "/album/fuer-dich",
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/53"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
       }
     },
     {
       title: "Wieso gerade ich?",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2023-02/rc-album.jpg?itok=Cq41SyfD",
       year: "2023",
+      detailPath: "/album/wieso-gerade-ich",
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/54"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
       }
     },
     {
@@ -251,22 +251,22 @@ const Discografie = () => {
       title: "Du machst mir Gänsehaut",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2023-02/Steven%20-%20G%C3%A4nsehaut.jpg?itok=UACR9kU1",
       year: "2023",
+      detailPath: "/album/du-machst-mir-gaensehaut",
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/47"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
       }
     },
     {
       title: "Hampelmann",
       coverUrl: "https://www.stevenpetersen.de/sites/default/files/styles/cover_klein/public/2023-02/hampelmann.jpg?itok=z_ZztzmM",
       year: "2023",
+      detailPath: "/album/hampelmann",
       streamingLinks: {
         spotify: "https://open.spotify.com/artist/4jLfURnHCqVXhWaV09jj4G",
         apple: "https://music.apple.com/de/artist/steven-petersen/1609906898",
-        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen",
-        preview: "https://www.stevenpetersen.de/index.php/node/24"
+        amazon: "https://music.amazon.de/artists/B0CW6KLLSL/steven-petersen"
       }
     },
     {
