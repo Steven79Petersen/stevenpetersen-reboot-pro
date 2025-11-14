@@ -45,6 +45,15 @@ import WiesoGeradeIch from "./pages/albums/WiesoGeradeIch";
 import DuMachstMirGaensehaut from "./pages/albums/DuMachstMirGaensehaut";
 import Hampelmann from "./pages/albums/Hampelmann";
 
+// Admin Pages
+import Auth from "./pages/Auth";
+import Dashboard from "./pages/admin/Dashboard";
+import AlbumsManager from "./pages/admin/AlbumsManager";
+import BiographyManager from "./pages/admin/BiographyManager";
+import ContactManager from "./pages/admin/ContactManager";
+import LegalManager from "./pages/admin/LegalManager";
+import { AdminRoute } from "./components/AdminRoute";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -94,6 +103,14 @@ const App = () => (
           <Route path="/album/wieso-gerade-ich" element={<WiesoGeradeIch />} />
           <Route path="/album/du-machst-mir-gaensehaut" element={<DuMachstMirGaensehaut />} />
           <Route path="/album/hampelmann" element={<Hampelmann />} />
+          
+          {/* Auth & Admin Routes */}
+          <Route path="/auth" element={<Auth />} />
+          <Route path="/admin" element={<AdminRoute><Dashboard /></AdminRoute>} />
+          <Route path="/admin/albums" element={<AdminRoute><AlbumsManager /></AdminRoute>} />
+          <Route path="/admin/biography" element={<AdminRoute><BiographyManager /></AdminRoute>} />
+          <Route path="/admin/contact" element={<AdminRoute><ContactManager /></AdminRoute>} />
+          <Route path="/admin/legal" element={<AdminRoute><LegalManager /></AdminRoute>} />
           
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

@@ -12,6 +12,7 @@ export const Navigation = () => {
     { to: "/discografie", label: "Discografie" },
     { to: "/kontakt", label: "Kontakt" },
     { to: "/impressum", label: "Impressum" },
+    { to: "/admin", label: "Admin" },
   ];
 
   return (
