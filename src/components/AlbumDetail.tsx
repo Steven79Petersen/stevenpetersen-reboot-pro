@@ -122,13 +122,13 @@ export const AlbumDetail = ({
               </div>
 
               {/* Spotify Embed Player */}
-              {spotifyEmbedId && (
+              {spotifyEmbedId && spotifyEmbedId !== '4jLfURnHCqVXhWaV09jj4G' && (
                 <div className="space-y-2">
                   <h3 className="text-lg font-semibold">Hörprobe</h3>
                   <div className="rounded-lg overflow-hidden border border-border/50">
                     <iframe
                       style={{ borderRadius: '12px' }}
-                      src={`https://open.spotify.com/embed/track/${spotifyEmbedId}?utm_source=generator&theme=0`}
+                      src={`https://open.spotify.com/embed/track/${spotifyEmbedId}?utm_source=generator&theme=0&market=DE`}
                       width="100%"
                       height="152"
                       frameBorder="0"
