@@ -32,18 +32,18 @@ export const Hero = () => {
           Steven Petersen
         </h1>
         
-        <div className="flex items-center justify-center gap-4 mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-          <div className="flex items-center gap-2 px-4 py-2 glass-card rounded-lg">
-            <Music className="h-5 w-5 text-primary" />
-            <span className="text-foreground font-semibold">Liedtexter</span>
+        <div className="flex flex-wrap items-center justify-center gap-3 mb-8 animate-fade-in px-4" style={{ animationDelay: "0.2s" }}>
+          <div className="flex items-center gap-2 px-3 py-2 glass-card rounded-lg text-sm md:text-base">
+            <Music className="h-4 w-4 md:h-5 md:w-5 text-primary flex-shrink-0" />
+            <span className="text-foreground font-semibold whitespace-nowrap">Liedtexter</span>
           </div>
-          <div className="flex items-center gap-2 px-4 py-2 glass-card rounded-lg">
-            <Radio className="h-5 w-5 text-secondary" />
-            <span className="text-foreground font-semibold">Moderator</span>
+          <div className="flex items-center gap-2 px-3 py-2 glass-card rounded-lg text-sm md:text-base">
+            <Radio className="h-4 w-4 md:h-5 md:w-5 text-secondary flex-shrink-0" />
+            <span className="text-foreground font-semibold whitespace-nowrap">Moderator</span>
           </div>
-          <div className="flex items-center gap-2 px-4 py-2 glass-card rounded-lg">
-            <Mic className="h-5 w-5 text-accent" />
-            <span className="text-foreground font-semibold">Sänger</span>
+          <div className="flex items-center gap-2 px-3 py-2 glass-card rounded-lg text-sm md:text-base">
+            <Mic className="h-4 w-4 md:h-5 md:w-5 text-accent flex-shrink-0" />
+            <span className="text-foreground font-semibold whitespace-nowrap">Sänger</span>
           </div>
         </div>
         
