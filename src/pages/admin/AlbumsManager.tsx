@@ -82,7 +82,17 @@ export default function AlbumsManager() {
     }
 
     if (isCreating) {
-      const { error } = await supabase.from('albums').insert([editingAlbum]);
+      const albumData = {
+        title: editingAlbum.title,
+        slug: editingAlbum.slug,
+        year: editingAlbum.year,
+        cover_url: editingAlbum.cover_url,
+        description: editingAlbum.description,
+        spotify_id: editingAlbum.spotify_id || null,
+        apple_music_link: editingAlbum.apple_music_link || null,
+        amazon_music_link: editingAlbum.amazon_music_link || null,
+      };
+      const { error } = await supabase.from('albums').insert([albumData]);
       if (error) {
         toast({
           title: 'Fehler',
@@ -96,9 +106,19 @@ export default function AlbumsManager() {
         setIsCreating(false);
       }
     } else {
+      const albumData = {
+        title: editingAlbum.title,
+        slug: editingAlbum.slug,
+        year: editingAlbum.year,
+        cover_url: editingAlbum.cover_url,
+        description: editingAlbum.description,
+        spotify_id: editingAlbum.spotify_id || null,
+        apple_music_link: editingAlbum.apple_music_link || null,
+        amazon_music_link: editingAlbum.amazon_music_link || null,
+      };
       const { error } = await supabase
         .from('albums')
-        .update(editingAlbum)
+        .update(albumData)
         .eq('id', editingAlbum.id);
 
       if (error) {
